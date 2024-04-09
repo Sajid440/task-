@@ -1,0 +1,914 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* display: flex;
+    justify-content: center; */
+    /* overflow-x: hidden; */
+}
+
+.navbar{
+    height: 30px;
+    width: 100%;
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    color: rgb(184, 179, 179);
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(197, 191, 191);
+
+}
+
+.b1{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(223, 216, 216);
+    color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+.b2{
+    height: 25px;
+    width: 80px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+/* .div2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+} */
+
+.p1{
+    font-size: 50px;
+    color: rgb(36, 35, 35);
+    font: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+ 
+}
+
+.p3-13{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: small;
+    font-size: 17px;
+}
+
+.ph{
+    height:30px;
+    width: 200px;
+}
+
+.b3{
+    background-color: rgb(80, 80, 241);
+    color: white;
+    height: 33px;
+    width: 100px;
+    border: none;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img1{
+
+    height: 400px;
+    width: 550px;
+    
+}
+
+.p4{
+    color: gray;
+    text-align: center;
+    font-size: small;
+    margin-top: 30px;
+}
+
+.logo3{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 10px;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.border-side{
+    border-left: 3px solid rgb(113, 113, 247);
+    height: 60px;
+}
+
+.h3-1{
+    color: rgb(90, 90, 90);
+}
+
+.img3-1{
+    height: 400px;
+}
+
+.p5{
+    color: gray;
+}
+
+.div4-h1{
+    text-align: center;
+    color: rgb(51, 50, 50);
+    margin-top: 100px;
+}
+
+.div5{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.div6{
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 50px;
+}
+
+.div7{
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 100px;
+}
+.div7-1{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.btn7{
+    background-color: rgb(121, 121, 243); 
+    color: white; 
+    border-radius: 10px;
+     height: 50px; 
+     width: 140px; 
+     border: none;
+}
+
+.h1-1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p6{
+    text-align: center;
+    color: rgb(112, 111, 111);
+    margin-top: 20px;
+}
+
+.div8{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.div8-1-1{
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+.p7{
+    color: rgb(29, 28, 28);
+}
+
+.p8{
+    color: gray;
+}
+
+.div9{
+    height: 150px;
+    width: 1000px;
+    background-color: rgb(120, 120, 250);
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.div9-p1{
+    color: white; 
+    font-size: x-large;
+}
+
+.img9-1{
+    height: 50px; 
+    width: 140px;    
+
+}
+
+
+.img9-2{
+    height: 50px; 
+    width: 140px;    
+
+}
+
+.footer-main{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+.pf1{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 5px;
+}
+.p3{
+    color: white;
+    font-size: 20px;
+}
+.img10{
+    height: 50px;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.div11{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div11-1{
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.div11-2{
+    padding-right: 150px;
+    padding-top: 10px;
+}
+
+
+
+    </style>
+    <style>
+        @media screen and (max-width:767px) {
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link{
+    display: none;
+}
+.logo2{
+    display: none;
+}
+.border-side{
+    display: none;
+}
+
+.logo1{
+    margin-right: 230px;
+}
+
+.b2{
+    display: none;
+}
+.div1-p1{
+    text-align: center;
+}
+.p1{
+    height: 150px;
+    width: 380px;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+.p3-13{
+    text-align: center;
+    height: 100px;
+    width: 80%;
+    font-size: 18px;
+    margin-left: 40px;
+
+   
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ph{
+    width:80%;
+    margin-left: 40px;
+    text-align: center;
+}
+.b3{
+    width: 80%;
+    margin-left: 41px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.nav-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.img1{
+    width: 99%;
+    height: 300px;
+}
+.p4{
+    text-align: center;
+}
+.slack{
+    display: none;
+}
+.logo3{
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.div3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.h3-13{
+    color: rgb(90, 90, 90);
+}
+
+.p53{
+    color: gray;
+}
+
+.border-bottom{
+    width: 90%;
+    margin: 15px;
+    margin-top: 45px;
+    border: 3px solid rgb(113, 113, 247);
+}
+
+.img3-1{
+    width: 90%;
+    height: 350px;
+    margin-left: 10px;
+}
+*{
+    overflow-x: hidden;
+}
+.div3-1{
+    text-align: center;
+}
+.div4{
+    text-align: center;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.div5-1{
+    margin-top: 50px;
+}
+
+.div6{
+    display: none;
+}
+.div7{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -20px;
+}
+.div7-1{
+    width: 80%;
+    text-align: center;
+}
+.btn7{
+    width: 95%;
+    margin-left: 10px;
+}
+.p5{
+    text-align: center;
+}
+
+.imgdiv7{
+    height: 300px;
+    width: 90%;
+    margin-top: -50px;
+}
+.h1-1{
+    text-align: center;
+}
+.p6{
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+.img8-2{
+    display: none;
+}
+.div8-1-1-2{
+    display: none;
+}
+.c{
+    display: none;
+}
+.div8{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.img8-1{
+    height: 50px;
+    width: 50px;    
+}
+.div8-1-1{
+    margin-top: -50px;
+    text-align: center;
+    margin-left: 20px;
+}
+.div9{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    margin-left: -10px;
+    border-radius: none;
+}
+
+.div9-1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img9-2{
+    margin-top: 10px;
+}.footer-main{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+   
+}
+/* .p1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -100px;
+} */
+.pf1{
+    color: white;
+    margin-left: 20px;
+}
+
+.pf3{
+    color: white;
+    margin-left: 200px;
+}
+.pf4{
+    color: white;
+    margin-left: 217px;
+}
+.pf5{
+    color: white;
+    margin-left: 239px;
+}
+.pf6{
+    color: white;
+    margin-left: 185px;
+}
+.img10{
+    margin-left: 20px;
+    height: 45px;
+    width: 150px;
+    margin-top: 10px;
+}
+.img2{
+    margin-left: 20px;
+    height: 45px;
+    width: 150px;
+    margin-top: 10px;
+}.one{
+    margin-top: -50px;
+}
+.two{
+    margin-top: -50px;
+}
+.three{
+    margin-top: -50px;
+}
+.four{
+    margin-top: -50px;
+}
+.p3{
+    display: none;
+}
+.footer{
+display: none;
+}
+
+.hrfooter{
+    width: 100%;
+}
+
+.div11{
+    height: 50px;
+    width: 100%;
+}
+.div11-1{
+    margin-left: -130px;
+}
+.div11-1-1{
+    display: none;
+}
+.div11-1-2{
+    display: none;
+}
+.div11-1-3{
+    display: none;
+}
+.div11-1-4{
+    display: none;
+}
+}
+
+@media screen and (min-width:1024px) {
+.pf3{
+    display: none;
+}
+.pf4{
+    display: none;
+}
+.pf5{
+    display: none;
+}
+.pf6{
+    display: none;
+}
+.nav-icon{
+    display: none;
+}
+.border-side1{
+    display: none;
+}
+.hide{
+    display: none;   
+}
+
+}
+
+
+    </style>
+    <!-- <link rel="stylesheet" href="figma.css"> -->
+    <!-- <link rel="stylesheet" href="media.css"> -->
+</head>
+<body>
+    <div class="main">
+
+    <div class="navbar">
+
+        <div class="logo1">
+           <img src="team.flow.png" alt="" style="height: 15px; width: 70px;">
+        </div>
+          <img class="nav-icon" src="nav-icon.png" alt="">
+
+            <div class="link">
+                <a href="#"> How it works &#11167; </a>
+                <a href="#"> Products &#11167;</a>
+                <a href="#"> Pricing &#11167;</a>
+                <a href="#"> Resources &#11167;</a>
+            </div>
+         
+            <div class="logo2">
+                <p> Log in</p>
+                <button class="b1"> Get Started Free</button>
+            </div>
+
+  </div>
+
+  <div class="div1">
+
+    <button class="b2"> Save 90% </button> <p class="div1-p1" style="color: gray;"> Get Accounct of $59</p>
+
+  </div>
+
+
+
+       <p class="p1">
+        Manage the team <br> everyone wants to be on
+      </p>
+
+      <p class="p3-13">
+        Simple plateform that lets you master what graet managers do best <br> as develop trust, collabrate, and drive team performance.
+      </p>
+
+      <div class="div2">
+        
+        <input class="ph" type="text" placeholder="name@yourcompany.com">
+        <button class="b3">Try it free</button>
+
+      </div>
+      
+      
+       <center><img class="img1" src="Graph 2 1.png" alt=""></center> 
+      
+
+      <p class="p4">TRUSTED BY OVER <span style="color: black; font: bold;">10.000+</span> WORLD'S BEST TEAM<p>
+
+      <div class="logo3">
+
+        <img src="google-2015a 1.png" alt="" style="height: 20px; width: 70px;">
+        <img src="airbnb 1.png" alt="" style="height: 20px; width: 70px;">
+        <img src="Group.png" alt="" style="height: 20px; width: 70px;">
+        <img src="hubspot 1.png" alt="" style="height: 20px; width: 70px;">
+        <img class="slack" src="slack-2 1 .png" alt="" style="height: 20px; width: 70px;">
+      
+      </div>
+      <br>
+
+      <div class="div3">
+        <img class="img3-1" src="Group 25.png" alt="">
+        <!-- <img class="img3-1" src="Group 25.png" alt="" style="height: 400px;"> -->
+
+        <div class="div3-1">
+        <div class="border-side">
+        <h3 class="h3-1">Survey your team</h3>
+        <p class="p5">powerful question that get to the heart <br>of how team members really feel. </p>
+        </div>
+
+          <div class="border-side1">
+          <h3 class="h3-13">Survey your team</h3>
+          <p class="p53">powerful question that get to the heart <br>of how team members really feel. </p>
+          </div>
+
+        <div class="border-bottom"></div>
+        <br>
+        <br>
+        <br>
+
+        <h3  class="h3-1">resolve issue quickly</h3>
+        <p class="p5">anonymous messging that connects <br>managers and employees. </p>
+        <br>
+        <br>
+        <br>
+
+        <h3  class="h3-1">Plan your 1-on-1s</h3>
+        <p class="p5">Plan meeting <br>managers and employees. </p>
+        <br>
+        <br>
+        <br>
+
+        <h3  class="h3-1">Track your progress</h3>
+        <p class="p5">Easy to read reports and sharable <br>results help manager and teams. </p>
+      </div>
+    </div>
+
+    <div class="div4">
+      <h1 class="div4-h1">Make your work easier</h1>
+    </div>
+
+    <div class="div5">
+      
+       <div class="div5-1">
+        <img class="div5-img1" src="Group 21.png" alt="">
+        <h3 class="h3-1">Team servey And reports</h3>
+        <p class="p5">Short, anonymous surveys track your <br> team's needs weekly so you can focus.</p>
+       </div>
+
+
+       <div class="div5-2">
+        <img src="Group 19.png" alt="">
+        <h3 class="h3-1">collabrative 1:1</h3>
+        <p class="p5">build realtionships by planning <br> 1-on-1s and start meetings.</p>
+      </div>   
+
+       <div class="div5-3">
+        <img src="Group 20.png" alt="">
+        <h3 class="h3-1">Learing Center</h3>
+        <p class="p5">Quickly get solutions tailored to your<br> personal challanges from the manager.</p>
+      </div>   
+
+    </div>
+
+    <div class="div6">
+      
+      <div class="div6-1">
+       <img class="img6-1" src="Group 22.png" alt="">
+       <h3 class="h3-1">Anonymous messaging</h3>
+       <p class="p5">develop trust in safe channel for <br> important conversations.</p>
+      </div>
+
+      <div class="div6-2">
+       <img class="img6-1" src="Group 23.png" alt="">
+       <h3 class="h3-1">conversation Engine</h3>
+       <p class="p5">Commnunicate confidently with<br> recommended talking points.</p>
+     </div>   
+
+      <div class="div6-3">
+       <img class="img6-1" src="Group 24.png" alt="">
+       <h3 class="h3-1">Exclusive manager</h3>
+       <p class="p5">access manager tips, activities and <br> best practice from our team of experts.</p>
+     </div>   
+
+   </div>
+
+   <div class="div7">
+
+    <div class="div7-1">
+      <h1 class="div7-h1"> We work how you <br> work everyday </h1>
+      <br>
+      
+    
+      <p class="p5"> Since the easiest things to use actually get used, we <br> adapts to the way your team works - not the other <br>way around.</p>
+      <br>
+    
+
+      <button class="btn7">
+        Get Started Free
+      </button>
+
+    </div>
+
+    <div class="div7-2">
+      <img class="imgdiv7" src="Group 26.png" alt="">
+    </div>
+
+   </div>
+
+  <h1 class="h1-1"> Why customer love <br> working with us</h1>
+
+  <p class="p6">"It's amazing what has help me leran about my team. <br>I don't worry about blindspots anymore, and 1-on-1s have never <br> been more productive. The team loves it."</p>
+  
+  <div class="div8">
+
+  
+      <img class="img8-1" src="Ellipse 5.png" alt=""> 
+        <div class="div8-1-1">
+         <p class="p7"> Jogre Robertson </p>
+         <p class="p8"> CS at Google</p>
+        </div>
+
+        <img class="img8-2" src="Ellipse 6.png" alt=""> 
+        <div class="div8-1-1-2">
+          <p class="p7">  Fransico Bell </p>
+          <p class="p8">Disegnser at Microsoft</p> 
+        </div>
+        
+        <img class="img8-2" src="Ellipse 7.png" alt=""> 
+        <div class="c">
+          <p class="p7">  Beth Fox </p>
+          <p class="p8">Developer at Airbnb</p>
+        </div>
+          
+  
+  </div>
+
+  <div class="div9">
+    <p class="div9-p1"> 84% of employees who use <br> trust thier direct manager</p>
+
+    <div class="div9-1">
+      <img class="img9-1" src="google-play-badge 1.png" alt="">
+      <img class="img9-2" src="Group (1).png" alt="">
+    </div>
+
+  </div>
+
+  <div class="footer-main">
+        <div class="one">
+          <a class="pf1" href="">Company</a> <a class="pf3" href="">&#11167;</a>
+          <!-- <p class="p1">Company</p><span class="en">&#11167;</span> -->
+          <p class="p3">About Us</p>
+          <p class="p3">Blog</p>
+          <p class="p3">Careers</p>
+          <p class="p3">Contact Us</p>
+        </div>
+
+        <div class="two">
+          <a class="pf1"  href="">Support</a> <a class="pf4" href="">&#11167;</a>
+          <p class="p3">Help Center</p>
+          <p class="p3">Safety Center</p>
+          <p class="p3">Community</p>
+        </div>
+
+        <div class="three">
+          <a class="pf1"  href="">Legal</a> <a class="pf5" href="">&#11167;</a>
+          <p class="p3">Cookies Policy</p>
+          <p class="p3">privacy Policy</p>
+          <p class="p3">Terms Of Service</p>
+        </div>
+
+        <div class="four">
+          <a class="pf1"  href="">Install App</a> <a class="pf6" href="">&#11167;</a> <br>
+          <img class="img10" src="Layer 2.png" alt=""> <br>
+          <img class="img2" src="Group (1).png" alt="">
+        </div>
+    
+  </div>
+
+  <div class="hrfooter" ><hr></div> 
+
+
+    <div class="div11"> 
+      <div class="div11-1">
+        &#169; 2020-All Rights reserved
+      </div> 
+
+      <div class="div11-2">
+        <img class="div11-1-1" src="Group 27.png" alt="">
+        <img class="div11-1-2" src="Group 28.png" alt="">
+        <img class="div11-1-3" src="Group 29.png" alt="">
+        <img class="div11-1-4" src="Group 30.png" alt="">
+      </div>
+
+
+    </div>
+</div>
+    
+</body>
+</html>
